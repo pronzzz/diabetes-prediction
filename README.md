@@ -1,4 +1,4 @@
-﻿🤖 ## **Diabetes Prediction using Machine Learning** 📊
+﻿🤖 ##**Diabetes Prediction using Machine Learning** 📊
 
 - Pandas, NumPy, Matplotlib, and Seaborn are used for data manipulation and visualization 📈
 
