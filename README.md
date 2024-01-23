@@ -1,9 +1,36 @@
-## **Diabetes Dataset Exploratory Data Analysis**
 
-### This code performs Exploratory Data Analysis (EDA) on the Diabetes Dataset, exploring its distribution, outliers, and relationships between features.
+﻿ 🤖 **Diabetes Prediction using Machine Learning** 📊
 
-### It begins by importing necessary libraries, reading the dataset as a Pandas DataFrame, and displaying its first few rows and summary statistics.
-### Then, it checks for null values, duplicated values, and visualizes data distribution, outliers, and correlations.
-### Additionally, the code applies standard scaling and label encoding to prepare the data for modeling.
-### Afterward, it implements a K-Nearest Neighbors Classifier to evaluate the model's performance with varying values of k.
-### Finally, it presents a confusion matrix and classification report to assess the model's accuracy and performance metrics.﻿
+- Pandas, NumPy, Matplotlib, and Seaborn are used for data manipulation and visualization 📈
+
+
+- Data Cleaning 🧹
+  - Missing Values: No missing values 😊
+  - Duplicated Values: None found 👍
+
+
+- Exploratory Data Analysis 🔎
+  - Outcome Distribution: Balanced ⚖️
+  - Outlier Detection: A few in some features 👀
+
+
+- Data Preprocessing 🛠️
+  - Standard Scaling: Applied for better model performance 🎚️
+  - Label Encoding: Outcome variable (0/1) 🎯
+
+
+- Model Training and Evaluation 🚂
+  - K-Nearest Neighbors Classifier 🤝
+  - Grid Search for Optimal Hyperparameter (k) 🔧
+  - Max Train Score: 94.23% at k = 14 🥇
+  - Max Test Score: 88.89% at k = 13 🏆
+
+
+- Performance Evaluation 📊
+  - Confusion Matrix: Shows model's prediction accuracy ⬜⬛
+  - Classification Report: Detailed metrics (Precision, Recall, F1-score) 👌
+
+
+- Conclusion 🏁
+  - KNN Classifier with k = 13 provides the best balance between train and test scores 🏆
+  - Model can effectively predict diabetes based on patient's features 😄﻿
